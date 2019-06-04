@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="88971" started-at="2019-06-04T02:17:14Z" finished-at="2019-06-04T02:18:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="88971" started-at="2019-06-04T02:17:14Z" finished-at="2019-06-04T02:18:43Z">
+      <class name="testSauce.TestAndroidSauce">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testSauce.TestAndroidSauce@747ddf94]" name="setUp" is-config="true" duration-ms="39333" started-at="2019-06-04T02:17:14Z" finished-at="2019-06-04T02:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Walkthrough()[pri:0, instance:testSauce.TestAndroidSauce@747ddf94]" name="Walkthrough" duration-ms="2259" started-at="2019-06-04T02:17:53Z" finished-at="2019-06-04T02:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Walkthrough -->
+        <test-method status="PASS" signature="AccountNumber()[pri:2, instance:testSauce.TestAndroidSauce@747ddf94]" name="AccountNumber" duration-ms="15217" started-at="2019-06-04T02:17:55Z" depends-on-methods="testSauce.TestAndroidSauce.Walkthrough" finished-at="2019-06-04T02:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountNumber -->
+        <test-method status="PASS" signature="pinCode()[pri:3, instance:testSauce.TestAndroidSauce@747ddf94]" name="pinCode" duration-ms="32074" started-at="2019-06-04T02:18:11Z" depends-on-methods="testSauce.TestAndroidSauce.AccountNumber" finished-at="2019-06-04T02:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pinCode -->
+      </class> <!-- testSauce.TestAndroidSauce -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
